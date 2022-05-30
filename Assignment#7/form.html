@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>FORM</title>
+</head>
+<body>
+    <form action="https://www.google.com" method="get">
+        <h1>REGISTRATION FORM:</h1>
+            <table bgcolor="chiffon">
+                <tr>
+                    <td align="center"><b>Username:</b></td>
+                    <td align="center"><input type="text" name="Username" size="30" maxlength="50"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Father's Name:</b></td>
+                    <td align="center"><input type="text" name="Father's Name" size="30" maxlength="50"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>CNIC:</b></td>
+                    <td align="center"><input type="text" name="CNIC" size="20" maxlength="20"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Date of Birth:</b></td>
+                    <td align="center">
+                        <select name="Date of Birth">
+                            <option value="Date">Date</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                        </select>
+                        
+                        <select name="Date of Birth">
+                            <option value="Month">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                        </select>
+
+                        <select name="Date of Birth">
+                            <option value="Year">Year</option>
+                            <option value="2000">2000</option>
+                            <option value="2001">2001</option>
+                            <option value="2001">2001</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>County:</b></td>
+                    <td align="center"><input type="text" name="County" size="20" maxlength="20"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>State:</b></td>
+                    <td align="center"><input type="text" name="State" size="20" maxlength="20"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>City:</b></td>
+                    <td align="center"><input type="text" name="City" size="20" maxlength="20"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Address:</b></td>
+                    <td align="center"><textarea name="Address" placeholder="Enter Your Address..." cols="30" rows="6"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Postal Code:</b></td>
+                    <td align="center"><input type="text" name="Postal Code" size="20" maxlength="20"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Contact No:</b></td>
+                    <td align="center"><input type="text" name="Contact No." size="20" maxlength="20"></td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Email Address:</b></td>
+                    <td align="center"><input type="text" name="Email Address" size="20" maxlength="30"></td>
+                </tr>
+
+                <tr>
+                    <p>
+                        <td align="center"><b>Gender:</b></td>
+                        <td align="center">
+                            <input type="radio" name="Gender" value="Male">Male
+                            <input type="radio" name="Gender" value="Female">Female
+                        </td>
+                    </p>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Languages:</b></td>
+                    <td align="center">
+                        <input type="checkbox" name="Languages" value="Urdu" checked="checked"/>Urdu
+                        <input type="checkbox" name="Languages" value="English"/>English
+                        <input type="checkbox" name="Languages" value="Sindhi"/>Sindhi
+                        <input type="checkbox" name="Languages" value="Punjabi"/>Punjabi
+                        <input type="checkbox" name="Languages" value="Other"/>Other
+                        <input type="text" name="Others" size="10" maxlength="20">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Qualifications:</b></td>
+                    <td align="center">
+                        <input type="radio" name="Qualifications" value="Matric" checked="checked"/>Matric
+                        <input type="radio" name="Qualifications" value="Intermediate"/>Intermediate
+                        <input type="radio" name="Qualifications" value="Bachelors"/>Bachelors
+                        <input type="radio" name="Qualifications" value="Masters"/>Masters
+                        <input type="radio" name="Qualifications" value="Ph.D"/>Ph.D
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Your Hobbies:</b></td>
+                    <td align="center">
+                        <input type="checkbox" name="Hobbies" value="Reading Books" checked="checked"/>Reading Books
+                        <input type="checkbox" name="Hobbies" value="Playing Games"/>Playing Games
+                        <input type="checkbox" name="Hobbies" value="Watching Movies"/>Watching Movies
+                        <input type="checkbox" name="Hobbies" value="Painting"/>Painting
+                        <input type="checkbox" name="Hobbies" value="Others"/>Others
+                        <input type="text" name="Others" size="10" maxlength="20">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>No. of Siblings:</b></td>
+                    <td align="center">
+                        <input type="radio" name="Siblings" value="Quantity" checked="checked"/>01
+                        <input type="radio" name="Siblings" value="Quantity"/>02
+                        <input type="radio" name="Siblings" value="Quantity"/>03
+                        <input type="radio" name="Siblings" value="Quantity"/>04
+                        <input type="radio" name="Siblings" value="Quantity"/>Other
+                        <input type="text" name="Others" size="10" maxlength="20">
+                    </td>
+                </tr>
+                
+                <tr>    
+                    <td align="center"><b>Job Status:</b></td>
+                    <td align="center">
+                        <input type="radio" name="Having Job" value="Yes" checked="checked"/>Yes
+                        <input type="radio" name="Having Job" value="No"/>No
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Upload Your Profile:</b></td>
+                    <td align="center">
+                        ,<input type="file" name="profile"/>
+                        <input type="submit" value="Upload"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td align="center"><b>Submit:</b></td>
+                    <td align="center">
+                        <input type="submit" value="Submit"/>
+                    </td>
+                </tr>
+            </table>
+    </form>    
+</body>
+</html>
